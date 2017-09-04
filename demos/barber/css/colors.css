@@ -5,11 +5,11 @@
 -----------------------------------------------------------------*/
 
 
-::selection { background: #bf9456; }
+::selection { background: #005a76; }
 
-::-moz-selection { background: #bf9456; }
+::-moz-selection { background: #005a76; }
 
-::-webkit-selection { background: #bf9456; }
+::-webkit-selection { background: #005a76; }
 
 
 a,
@@ -62,7 +62,7 @@ h6 > span:not(.nocolor),
 .pagination > li > span:focus,
 .dark .post-timeline .entry:hover .entry-timeline,
 .dark .post-timeline .entry:hover .timeline-divider,
-.clear-rating-active:hover { color: #bf9456; }
+.clear-rating-active:hover { color: #005a76; }
 
 .color,
 .top-cart-item-desc a:hover,
@@ -77,7 +77,7 @@ h6 > span:not(.nocolor),
 .overlay-menu #primary-menu.dark > ul > li.current > a,
 .nav-tree li:hover > a,
 .nav-tree li.current > a,
-.nav-tree li.active > a { color: #bf9456 !important; }
+.nav-tree li.active > a { color: #005a76 !important; }
 
 #primary-menu.style-3 > ul > li.current > a,
 #primary-menu.sub-title > ul > li:hover > a,
@@ -132,7 +132,7 @@ input.switch-toggle-flat:checked + label,
 input.switch-toggle-flat:checked + label:after,
 input.switch-toggle-round:checked + label:before,
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-themecolor,
-.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-themecolor { background-color: #bf9456; }
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-themecolor { background-color: #005a76; }
 
 .bgcolor,
 .bgcolor #header-wrap,
@@ -147,7 +147,7 @@ input.switch-toggle-round:checked + label:before,
 .pagination > .active > a:hover,
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
-.pagination > .active > span:focus { background-color: #bf9456 !important; }
+.pagination > .active > span:focus { background-color: #005a76 !important; }
 
 #primary-menu.style-4 > ul > li:hover > a,
 #primary-menu.style-4 > ul > li.current > a,
@@ -162,7 +162,7 @@ input.switch-toggle-round:checked + label:before,
 .dark .post-timeline .entry:hover .entry-timeline,
 .dark .post-timeline .entry:hover .timeline-divider,
 .dark .cart-product-thumbnail img:hover,
-.heading-block.border-color:after { border-color: #bf9456; }
+.heading-block.border-color:after { border-color: #005a76; }
 
 .top-links ul ul,
 .top-links ul div.top-link-section,
@@ -182,12 +182,12 @@ input.switch-toggle-round:checked + label:before,
 .tabs.tabs-tb ul.tab-nav li.ui-tabs-active a,
 .irs-from:after,
 .irs-single:after,
-.irs-to:after { border-top-color: #bf9456; }
+.irs-to:after { border-top-color: #005a76; }
 
 #page-menu.dots-menu nav li span:after,
-.title-block { border-left-color: #bf9456; }
+.title-block { border-left-color: #005a76; }
 
-.title-block-right { border-right-color: #bf9456; }
+.title-block-right { border-right-color: #005a76; }
 
 .fancy-title.title-bottom-border h1,
 .fancy-title.title-bottom-border h2,
@@ -196,7 +196,7 @@ input.switch-toggle-round:checked + label:before,
 .fancy-title.title-bottom-border h5,
 .fancy-title.title-bottom-border h6,
 .more-link,
-.tabs.tabs-bb ul.tab-nav li.ui-tabs-active a { border-bottom-color: #bf9456; }
+.tabs.tabs-bb ul.tab-nav li.ui-tabs-active a { border-bottom-color: #005a76; }
 
 .border-color,
 .process-steps li.active a,
@@ -207,15 +207,15 @@ input.switch-toggle-round:checked + label:before,
 .pagination > .active > a:hover,
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
-.pagination > .active > span:focus { border-color: #bf9456 !important; }
+.pagination > .active > span:focus { border-color: #005a76 !important; }
 
 .fbox-effect.fbox-dark .fbox-icon i:after,
-.dark .fbox-effect.fbox-dark .fbox-icon i:after { box-shadow: 0 0 0 2px #bf9456; }
+.dark .fbox-effect.fbox-dark .fbox-icon i:after { box-shadow: 0 0 0 2px #005a76; }
 
 .fbox-border.fbox-effect.fbox-dark .fbox-icon i:hover,
 .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i,
 .dark .fbox-border.fbox-effect.fbox-dark .fbox-icon i:hover,
-.dark .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i { box-shadow: 0 0 0 1px #bf9456; }
+.dark .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i { box-shadow: 0 0 0 1px #005a76; }
 
 
 @media only screen and (max-width: 991px) {
@@ -226,15 +226,15 @@ input.switch-toggle-round:checked + label:before,
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.current a,
 	#primary-menu ul ul li:hover > a,
 	#primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title:hover > a,
-	#primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a:hover { color: #bf9456 !important; }
+	#primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a:hover { color: #005a76 !important; }
 
-	#page-menu nav { background-color: #bf9456; }
+	#page-menu nav { background-color: #005a76; }
 
 }
 
 
 @media only screen and (max-width: 767px) {
 
-	.portfolio-filter li a:hover { color: #bf9456; }
+	.portfolio-filter li a:hover { color: #005a76; }
 
 }
