@@ -839,12 +839,12 @@
 		jQuery(window).load(function(){
 
 			jQuery('#popular-dest-map').gMap({
-				address: 'Spain',
+				address: '19723 Leitersburg Pike, Hagerstown, MD 21742',
 				maptype: 'ROADMAP',
 				zoom: 4,
 				markers: [
 					{
-						address: "Ibiza, Spain",
+						address: "19723 Leitersburg Pike, Hagerstown, MD 21742",
 						icon: {
 							image: "demos/barber/images/map-marker.png",
 							iconsize: [32, 39],
@@ -854,12 +854,12 @@
 				],
 				doubleclickzoom: false,
 				controls: {
-					panControl: false,
+					panControl: true,
 					zoomControl: true,
-					mapTypeControl: false,
-					scaleControl: false,
-					streetViewControl: false,
-					overviewMapControl: false
+					mapTypeControl: true,
+					scaleControl: true,
+					streetViewControl: true,
+					overviewMapControl: true
 				},
 				styles: [
 			{elementType: 'geometry', stylers: [{color: '#333333'}]},
