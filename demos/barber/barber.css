@@ -154,6 +154,7 @@ nav.custom-hero-nav { display: none; }
 
 .price-name {
 	display: table-cell;
+	float: left;
 	width: 1%;
 	white-space: nowrap;
 	padding-right: 10px;
@@ -181,7 +182,7 @@ nav.custom-hero-nav { display: none; }
 
 .price-price {
 	display: table-cell;
-	width: 1%;
+	float: right;
 	padding-left: 10px;
 	font-size: 20px;
 	font-weight: 700;
