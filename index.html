@@ -71,6 +71,26 @@
 			-webkit-animation-duration: 1.7s;
 			animation-duration: 1.7s;
 		}
+		#textInList {
+			color: #fff;
+			text-transform: none;
+			letter-spacing: 0;
+			font-weight: normal;
+		}
+		.textReminder {
+			margin: 0;
+		}
+		.price-name a {
+			font-size: 1em;
+		}
+		.price-price {
+			font-size: 1em;
+		}
+		@media (max-width: 480px){
+			#pricingContainer {
+				padding: 5px;
+			}
+		}
 	</style>
 
 </head>
@@ -349,7 +369,7 @@
 									<h3>
 										<span class="ls0 subtitle font-primary">Look your best</span>
 									</h3>
-									<p>Back to the basics. This is the best haircut in town.</p>
+									<p>A transformation to smooth, frizz free hair like never imagined possible.</p>
 								</div>
 								<!-- <a href="#" class="more-link uppercase ls1 t700" style="margin: 20px 0 0 0; font-style: normal;">Read More</a> -->
 							</div>
@@ -369,7 +389,7 @@
 									<h3>
 										<span class="ls0 subtitle font-primary">A new you.</span>
 									</h3>
-									<p>Kalon's team of designers can give you a new head of hair.</p>
+									<p>K&#227;lon's team of designers can give you a new head of hair.</p>
 								</div>
 								<!-- <a href="#" class="more-link uppercase ls1 t700" style="margin: 20px 0 0 0; font-style: normal;">Read More</a> -->
 							</div>
@@ -389,17 +409,17 @@
 
 					<!-- Price Items
 					============================================= -->
-					<div class="dark col-padding clearfix" style="background-color: #005a76">
+					<div id="pricingContainer" class="dark col-padding clearfix" style="background-color: #005a76">
 						<div class="hidden-xs hidden-sm col-md-6">
 							<h3>For the lady:</h3>
 						</div>
 						<div class="hidden-xs hidden-sm col-md-6">
-							<h3>For the gentlemen:</h3>
+							<h3>Dry Styling-</h3>
 						</div>
 						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
 							<div class="price-header">
 								<div class="price-name">
-									<a href="#" class="color">Women's Dry Cut and finish</a>
+									<a href="javascript:void(0)" class="color">Women's Dry Cut and finish</a>
 								</div>
 								<div class="price-price">35-45</div>
 							</div>
@@ -408,7 +428,88 @@
 						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
 							<div class="price-header">
 								<div class="price-name">
-									<a href="#" class="color">Men's Cut and finish</a>
+									<a href="javascript:void(0)" class="color">Wavy Beach Curl Style</a>
+								</div>
+								<div class="price-price">25</div>
+							</div>
+						</div>
+
+						<div class="clear"></div>
+
+						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
+							<div class="price-header">
+								<div class="price-name">
+									<a href="javascript:void(0)" class="color">Women's Dry Cut</a>
+								</div>
+								<div class="price-price">35</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
+							<div class="price-header">
+								<div class="price-name">
+									<a href="javascript:void(0)" class="color">Formal Event Up-Style</a>
+								</div>
+								<div class="price-price">70+</div>
+							</div>
+						</div>
+
+						<div class="clear"></div>
+
+						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
+							<div class="price-header">
+								<div class="price-name">
+									<a href="javascript:void(0)" class="color">Girls Cut 10 & under</a>
+								</div>
+								<div class="price-price">20</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
+							<div class="price-header">
+								<div class="price-name">
+									<a href="javascript:void(0)" class="color">Formal Event Down-Style</a>
+								</div>
+								<div class="price-price">55+</div>
+							</div>
+						</div>
+
+						<div class="clear"></div>
+
+						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
+							<div class="price-header">
+								<div class="price-name">
+									<a href="javascript:void(0)" class="color">Blowout with style</a>
+								</div>
+								<div class="price-price">30-40</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
+							<div class="price-header">
+								<div class="price-name">
+									<a href="javascript:void(0)" class="color">Bridal Style</a>
+								</div>
+								<div class="price-price">90+</div>
+							</div>
+						</div>
+
+						<div class="clear"></div>
+
+						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
+							<div class="price-header">
+								<div class="price-name">
+									<a href="javascript:void(0)" class="color">Base color touch-up</a>
+								</div>
+								<div class="price-price">60+</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
+							<h3>For the gentlemen:</h3>
+							<div class="price-header">
+								<div class="price-name">
+									<a href="javascript:void(0)" class="color">Men's Cut and finish</a>
 								</div>
 								<div class="price-price">22-28</div>
 							</div>
@@ -419,16 +520,16 @@
 						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
 							<div class="price-header">
 								<div class="price-name">
-									<a href="#" class="color">Women's Dry Cut</a>
+									<a href="javascript:void(0)" class="color">Base color w/Gloss</a>
 								</div>
-								<div class="price-price">35</div>
+								<div class="price-price">75+</div>
 							</div>
 						</div>
 
 						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
 							<div class="price-header">
 								<div class="price-name">
-									<a href="#" class="color">Beard maintenance</a>
+									<a href="javascript:void(0)" class="color">Beard maintenance</a>
 								</div>
 								<div class="price-price">7</div>
 							</div>
@@ -439,16 +540,16 @@
 						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
 							<div class="price-header">
 								<div class="price-name">
-									<a href="#" class="color">Girls Cut 10 & under</a>
+									<a href="javascript:void(0)" class="color">Foils</a>
 								</div>
-								<div class="price-price">20</div>
+								<div class="price-price">75+</div>
 							</div>
 						</div>
 
 						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
 							<div class="price-header">
 								<div class="price-name">
-									<a href="#" class="color">Boy's Cut 10 & under</a>
+									<a href="javascript:void(0)" class="color">Boy's Cut 10 & under</a>
 								</div>
 								<div class="price-price">18</div>
 							</div>
@@ -459,16 +560,16 @@
 						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
 							<div class="price-header">
 								<div class="price-name">
-									<a href="#" class="color">Blowout with style</a>
+									<a href="javascript:void(0)" class="color">Foils w/ Color and Gloss</a>
 								</div>
-								<div class="price-price">30-40</div>
+								<div class="price-price">100+</div>
 							</div>
 						</div>
 
 						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
 							<div class="price-header">
 								<div class="price-name">
-									<a href="#" class="color">Camo color, cut, and finish</a>
+									<a href="javascript:void(0)" class="color">Camo color, cut, and finish</a>
 								</div>
 								<div class="price-price">45</div>
 							</div>
@@ -479,17 +580,18 @@
 						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
 							<div class="price-header">
 								<div class="price-name">
-									<a href="#" class="color">Base color touch-up</a>
+									<a href="javascript:void(0)" class="color">Balayage</a>
 								</div>
-								<div class="price-price">60+</div>
+								<div class="price-price">120+</div>
 							</div>
 						</div>
+						<br>
 
 						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
 							<h3>Waxing Menu</h3>
 							<div class="price-header">
 								<div class="price-name">
-									<a href="#" class="color">Brows</a>
+									<a href="javascript:void(0)" class="color">Brows</a>
 								</div>
 								<div class="price-price">12</div>
 							</div>
@@ -500,16 +602,39 @@
 						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
 							<div class="price-header">
 								<div class="price-name">
-									<a href="#" class="color">Base color w/Gloss</a>
+									<a href="javascript:void(0)" class="color">The Brazilian Blowout</a>
+									<p class="textReminder">(Full-size Shampoo & Conditioner Included)<br>(Learn more at <a id="textInList" href="http://brazilianblowout.com/" target="_blank">brazilianblowout.com</a>)</p>
+
 								</div>
-								<div class="price-price">75+</div>
+								<div class="price-price">275</div>
 							</div>
 						</div>
 
 						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
 							<div class="price-header">
 								<div class="price-name">
-									<a href="#" class="color">Lip</a>
+									<a href="javascript:void(0)" class="color">Lip</a>
+								</div>
+								<div class="price-price">10</div>
+							</div>
+						</div>
+
+						<div class="clear"></div>
+
+						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
+								<div class="price-header">
+									<div class="price-name">
+										<a href="javascript:void(0)" class="color">HotHeads Tape-In Extensions</a>
+										<p class="textReminder">**Consultation required for pricing. <br>(Learn more at <a id="textInList" href="http://www.hotheads.com/" target="_blank">hotheads.com</a>)</p>
+									</div>
+									<div class="price-price"></div>
+								</div>
+							</div>
+
+						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
+							<div class="price-header">
+								<div class="price-name">
+									<a href="javascript:void(0)" class="color">Chin</a>
 								</div>
 								<div class="price-price">10</div>
 							</div>
@@ -520,183 +645,22 @@
 						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
 							<div class="price-header">
 								<div class="price-name">
-									<a href="#" class="color">Foils</a>
+									<a href="javascript:void(0)" class="color"></a>
 								</div>
-								<div class="price-price">75+</div>
+								<div class="price-price"></div>
 							</div>
 						</div>
 
 						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
 							<div class="price-header">
 								<div class="price-name">
-									<a href="#" class="color">Chin</a>
-								</div>
-								<div class="price-price">10</div>
-							</div>
-						</div>
-
-						<div class="clear"></div>
-
-						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
-							<div class="price-header">
-								<div class="price-name">
-									<a href="#" class="color">Foils w/ Color and Gloss</a>
-								</div>
-								<div class="price-price">100+</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
-							<div class="price-header">
-								<div class="price-name">
-									<a href="#" class="color">Full Face</a>
+									<a href="javascript:void(0)" class="color">Full Face</a>
 								</div>
 								<div class="price-price">30</div>
 							</div>
 						</div>
 
 						<div class="clear"></div>
-
-						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
-							<div class="price-header">
-								<div class="price-name">
-									<a href="#" class="color">Balayage</a>
-								</div>
-								<div class="price-price">120+</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
-							<div class="price-header">
-								<div class="price-name">
-									<a href="#" class="color"></a>
-								</div>
-								<div class="price-price"></div>
-							</div>
-						</div>
-
-						<div class="clear"></div>
-
-						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
-							<div class="price-header">
-								<div class="price-name">
-									<a href="#" class="color">Express Keratin Treatment</a>
-								</div>
-								<div class="price-price">140</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
-							<div class="price-header">
-								<div class="price-name">
-									<a href="#" class="color"></a>
-								</div>
-								<div class="price-price"></div>
-							</div>
-						</div>
-
-						<div class="clear"></div>
-
-						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
-							<div class="price-header">
-								<div class="price-name">
-									<a href="#" class="color">Keratin Smoothing Treatment</a>
-								</div>
-								<div class="price-price">250</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
-							<div class="price-header">
-								<div class="price-name">
-									<a href="#" class="color"></a>
-								</div>
-								<div class="price-price"></div>
-							</div>
-						</div>
-
-						<div class="clear"></div>
-
-						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
-							<h3>Dry Styling</h3>
-							<div class="price-header">
-								<div class="price-name">
-									<a href="#" class="color">Wavy Beach Curl Style</a>
-								</div>
-								<div class="price-price">25</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
-							<div class="price-header">
-								<div class="price-name">
-									<a href="#" class="color"></a>
-								</div>
-								<div class="price-price"></div>
-							</div>
-						</div>
-
-						<div class="clear"></div>
-
-						<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
-								<div class="price-header">
-									<div class="price-name">
-										<a href="#" class="color">Formal Event Up-style</a>
-									</div>
-									<div class="price-price">70+</div>
-								</div>
-							</div>
-	
-							<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
-								<div class="price-header">
-									<div class="price-name">
-										<a href="#" class="color"></a>
-									</div>
-									<div class="price-price"></div>
-								</div>
-							</div>
-	
-							<div class="clear"></div>
-
-							<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
-									<div class="price-header">
-										<div class="price-name">
-											<a href="#" class="color">Formal Event Down-style</a>
-										</div>
-										<div class="price-price">55+</div>
-									</div>
-								</div>
-		
-								<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
-									<div class="price-header">
-										<div class="price-name">
-											<a href="#" class="color"></a>
-										</div>
-										<div class="price-price"></div>
-									</div>
-								</div>
-		
-								<div class="clear"></div>
-
-								<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
-										<div class="price-header">
-											<div class="price-name">
-												<a href="#" class="color">Bridal Style</a>
-											</div>
-											<div class="price-price">90+</div>
-										</div>
-									</div>
-			
-									<div class="col-md-6 col-sm-12 col-xs-12 price-wrap">
-										<div class="price-header">
-											<div class="price-name">
-												<a href="#" class="color"></a>
-											</div>
-											<div class="price-price"></div>
-										</div>
-									</div>
-			
-									<div class="clear"></div>
 
 						<!--div class="center">
 							<a href="#" class="button button-large button-color hidden-sm hidden-xs "><i class="icon-calendar2"></i> Make An Appointment</a>
