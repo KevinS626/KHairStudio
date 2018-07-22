@@ -52,6 +52,9 @@ if( $().infinitescroll ) {
 } else {
 	console.log('Infinite Scroll not defined.');
 }
+console.log("-----------------------------------------------------------------");
+console.log("Hey there. If you like my work, contact me at KevinS626@gmail.com");
+console.log("-----------------------------------------------------------------");
 
 (function() {
 	var lastTime = 0;

@@ -75,7 +75,7 @@ nav.custom-hero-nav { display: none; }
 
 .feature-box.fbox-plain .fbox-icon img { height: 42px; }
 
-.feature-box h3 span.subtitle { color: #BBB; }
+.feature-box h3 span.subtitle { color: #005a76; }
 
 .fbox-media a span {
 	position: absolute;
@@ -368,7 +368,9 @@ textarea.border-form-control {
 
 	.fbox-media a span {
 		margin-top: -18px;
-		font-size: 25px;
+		font-size: 20px;
+		background-color: rgba(50, 50, 50, 0.5);
+		padding: 3px 8px;
 	}
 
 	.price-wrap { padding: 0 25px; }
