@@ -25,6 +25,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
 	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/colors.css" type="text/css" />
 
 	<!-- Barber Demo Specific Stylesheet -->
 	<link rel="stylesheet" href="demos/barber/barber.css" type="text/css" />
@@ -43,7 +44,7 @@
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<![endif]-->
 
-	<link rel="stylesheet" href="demos/barber/css/colors.css" type="text/css" />
+	
 
 	<!-- Document Title
 	============================================= -->
@@ -200,7 +201,7 @@
 
 				<!-- Slider Appointment Button
 				============================================= -->
-				<!--a href="#" class="button button-large button-color button-appointment hidden-sm hidden-xs" data-scrollto="#contact" data-offset="62" data-easing="easeInOutExpo" data-speed="1300"><i class="icon-calendar2"></i> Make An Appointment</a-->
+				<a href="#" class="button button-large button-color button-appointment hidden-sm hidden-xs" data-scrollto="#contact" data-offset="62" data-easing="easeInOutExpo" data-speed="1300"><i class="icon-calendar2"></i> Make An Appointment</a>
 
 				<!-- Slider Social Icons
 				============================================= -->
@@ -701,9 +702,7 @@
 				============================================= -->
 				<div id="contact" class="row common-height page-section notoppadding clearfix">
 
-					<div id="popular-dest-map" class="col-md-6 col-padding gmap hidden-xs"></div>
-
-					<div class="col-md-6 col-padding " style="background-color: #F9F9F9;">
+					<div class="col-md-12 col-padding " style="background-color: #F9F9F9;">
 						<div class="max-height">
 							<h3 class="uppercase">Visit us</h3>
 							<div class="row topmargin-sm clearfix" style="font-size: 16px; line-height: 1.7;">
@@ -859,167 +858,9 @@
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/plugins.js"></script>
 
-		<!-- Map
-	============================================= -->
-		<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyDGka1X-NRAvbiYrAzYRTYsbhTQIKFdyLI"></script>
-		<script type="text/javascript" src="js/jquery.gmap.js"></script>
-
 		<!-- Footer Scripts
 	============================================= -->
 		<script type="text/javascript" src="js/functions.js"></script>
-
-		<script>
-			// Map Scripts
-			jQuery(window).load(function () {
-
-				jQuery('#popular-dest-map').gMap({
-					address: '19723 Leitersburg Pike, Hagerstown, MD 21742',
-					maptype: 'ROADMAP',
-					zoom: 15,
-					markers: [{
-						address: "19723 Leitersburg Pike, Hagerstown, MD 21742",
-						icon: {
-							image: "demos/barber/images/map-marker.png",
-							iconsize: [32, 39],
-							iconanchor: [16, 36]
-						}
-					}],
-					doubleclickzoom: false,
-					controls: {
-						panControl: true,
-						zoomControl: true,
-						mapTypeControl: true,
-						scaleControl: true,
-						streetViewControl: true,
-						overviewMapControl: true
-					},
-					styles: [{
-							elementType: 'geometry',
-							stylers: [{
-								color: '#333333'
-							}]
-						},
-						{
-							elementType: 'labels.text.stroke',
-							stylers: [{
-								color: '#222222'
-							}]
-						},
-						{
-							elementType: 'labels.text.fill',
-							stylers: [{
-								color: '#bf9456'
-							}]
-						},
-						{
-							featureType: 'administrative.locality',
-							elementType: 'labels.text.fill',
-							stylers: [{
-								color: '#bf9456'
-							}]
-						},
-						{
-							featureType: 'poi',
-							elementType: 'labels.text.fill',
-							stylers: [{
-								color: '#bf9456'
-							}]
-						},
-						{
-							featureType: 'poi.park',
-							elementType: 'geometry',
-							stylers: [{
-								color: '#111111'
-							}]
-						},
-						{
-							featureType: 'poi.park',
-							elementType: 'labels.text.fill',
-							stylers: [{
-								color: '#000000'
-							}]
-						},
-						{
-							featureType: 'road',
-							elementType: 'geometry',
-							stylers: [{
-								color: '#a07c48'
-							}]
-						},
-						{
-							featureType: 'road',
-							elementType: 'geometry.stroke',
-							stylers: [{
-								color: '#a07c48'
-							}]
-						},
-						{
-							featureType: 'road',
-							elementType: 'labels.text.fill',
-							stylers: [{
-								color: '#a07c48'
-							}]
-						},
-						{
-							featureType: 'road.highway',
-							elementType: 'geometry',
-							stylers: [{
-								color: '#bf9456'
-							}]
-						},
-						{
-							featureType: 'road.highway',
-							elementType: 'geometry.stroke',
-							stylers: [{
-								color: '#bf9456'
-							}]
-						},
-						{
-							featureType: 'road.highway',
-							elementType: 'labels.text.fill',
-							stylers: [{
-								color: '#f3d19c'
-							}]
-						},
-						{
-							featureType: 'transit',
-							elementType: 'geometry',
-							stylers: [{
-								color: '#000000'
-							}]
-						},
-						{
-							featureType: 'transit.station',
-							elementType: 'labels.text.fill',
-							stylers: [{
-								color: '#bf9456'
-							}]
-						},
-						{
-							featureType: 'water',
-							elementType: 'geometry',
-							stylers: [{
-								color: '#222222'
-							}]
-						},
-						{
-							featureType: 'water',
-							elementType: 'labels.text.fill',
-							stylers: [{
-								color: '#222222'
-							}]
-						},
-						{
-							featureType: 'water',
-							elementType: 'labels.text.stroke',
-							stylers: [{
-								color: '#222222'
-							}]
-						}
-					]
-				});
-			});
-		</script>
 
 </body>
 

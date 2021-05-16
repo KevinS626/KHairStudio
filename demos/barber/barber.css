@@ -24,7 +24,7 @@ nav.custom-hero-nav { display: none; }
 .slider-social a:hover { color: #FFF; }
 
 .button.button-color {
-	color: #111;
+	color: #fff;
 	font-weight: 700;
 	height: 44px;
 	line-height: 44px;
@@ -46,8 +46,8 @@ nav.custom-hero-nav { display: none; }
 
 .button.button-color.reverse,
 .button.button-color:hover {
-	background-color: #222 !important;
-	color: #005a76 !important;
+	background-color: #003849 !important;
+	color: #fff !important;
 }
 
 #header:not(.sticky-header) #primary-menu .button.button-color {
