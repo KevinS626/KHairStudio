@@ -280,15 +280,15 @@ var SEMICOLON = SEMICOLON || {};
 			var elementScrollSpeed = $goToTopEl.attr('data-speed'),
 				elementScrollEasing = $goToTopEl.attr('data-easing');
 
-			if( !elementScrollSpeed ) { elementScrollSpeed = 700; }
-			if( !elementScrollEasing ) { elementScrollEasing = 'easeOutQuad'; }
+			// if( !elementScrollSpeed ) { elementScrollSpeed = 700; }
+			// if( !elementScrollEasing ) { elementScrollEasing = 'easeOutQuad'; }
 
-			$goToTopEl.click(function() {
-				$('body,html').stop(true).animate({
-					'scrollTop': 0
-				}, Number( elementScrollSpeed ), elementScrollEasing );
-				return false;
-			});
+			// $goToTopEl.click(function() {
+			// 	$('body,html').stop(true).animate({
+			// 		'scrollTop': 0
+			// 	}, Number( elementScrollSpeed ), elementScrollEasing );
+			// 	return false;
+			// });
 		},
 
 		goToTopScroll: function(){

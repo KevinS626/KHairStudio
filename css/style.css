@@ -2775,6 +2775,9 @@ body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-over
 	Slider
 -----------------------------------------------------------------*/
 
+/* .blur-img {
+	filter: blur(2px);
+} */
 
 #slider {
 	position: relative;
@@ -11554,15 +11557,15 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 
 
 #gotoTop {
-	display: none;
+	/* display: none; */
 	z-index: 299;
 	position: fixed;
-	width: 40px;
-	height: 40px;
-	background-color: #333;
-	background-color: rgba(0,0,0,0.3);
-	font-size: 20px;
-	line-height: 36px;
+	background-color: #005a76;
+	color: #fff;
+	font-size: 13px;
+	line-height: 60px;
+	height: 60px;
+	line-height: 60px;
 	text-align: center;
 	color: #FFF;
 	top: auto;
@@ -11570,8 +11573,8 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 	right: 30px;
 	bottom: 50px;
 	cursor: pointer;
-	border-radius: 2px;
 }
+
 
 body:not(.device-touch) #gotoTop {
 	transition: background-color .2s linear;
