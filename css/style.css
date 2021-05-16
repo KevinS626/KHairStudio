@@ -939,7 +939,9 @@ html[xmlns] .slider-wrap {display: block;}
 	border-bottom: 1px solid #F5F5F5;
 }
 
-#header .container { position: relative; }
+#header .container { 
+	position: relative; 
+}
 
 #header.transparent-header {
 	background: transparent;
@@ -1027,6 +1029,12 @@ body.stretched #header.full-header .container {
 #logo img {
 	display: block;
 	max-width: 100%;
+}
+
+@media only screen and (min-width: 992) {
+	#logo-img {
+		margin-top: 20px;
+	}
 }
 
 #logo a.standard-logo { display: block; }
@@ -2675,6 +2683,10 @@ body.side-panel-left.side-push-panel.stretched #header.sticky-header .container 
 	right: auto;
 }
 
+.book-now {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
 #side-panel .side-panel-wrap {
 	position: absolute;
 	top: 0;
@@ -2775,9 +2787,6 @@ body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-over
 	Slider
 -----------------------------------------------------------------*/
 
-/* .blur-img {
-	filter: blur(2px);
-} */
 
 #slider {
 	position: relative;
@@ -11966,7 +11975,7 @@ button.toast-close-button {
 
 #footer .footer-widgets-wrap {
 	position: relative;
-	padding: 40px 0;
+	padding: 20px 0;
 }
 
 .footer-widgets-wrap .col_full,
@@ -13620,3 +13629,15 @@ body:not(.no-transition) #wrapper,
 	padding:0!important
 }
 
+.black-overlay-wrapper {
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+	top: 0;
+}
+.black-overlay {
+	background: rgba(0,0,0,0.8);
+	height: 100%;
+	width: 100%;
+}

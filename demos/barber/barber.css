@@ -263,9 +263,9 @@ p.price-desc {
 	font-family: 'PT Sans Captions', sans-serif;
 }
 
-.border-form-control::-moz-placeholder { font-weight: 300; color: #CCC; }
-.border-form-control:-ms-input-placeholder {font-weight: 300; color: #CCC; }
-.border-form-control::-webkit-input-placeholder { font-weight: 300; color: #CCC; }
+.border-form-control::-moz-placeholder { font-weight: 300; color: #333; }
+.border-form-control:-ms-input-placeholder {font-weight: 300; color: #333; }
+.border-form-control::-webkit-input-placeholder { font-weight: 300; color: #333; }
 
 textarea.border-form-control {
 	resize: none;
@@ -298,7 +298,13 @@ textarea.border-form-control {
 
 	#header,
 	#header-wrap,
-	#logo img { height: 60px; }
+	#logo img { 
+		height: 60px; 
+	}
+
+	#logo img { 
+		margin-top: 20px;
+	}
 
 	#header.sticky-header:not(.static-sticky),
 	#header.sticky-header:not(.static-sticky) #header-wrap,
